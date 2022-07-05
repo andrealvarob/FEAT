@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/activity_choose_filters_eaicon"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_ea_transparent"
+                android:layout_gravity="center_vertical"
+                />
+
+            <Button
+                android:id="@+id/choose_filters_continuebutton"
+
+                android:layout_below="@+id/activity_choose_filters_eaicon"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:background="@drawable/round_button_shape_color1"
+                android:text="continuar"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                />
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <pit.feat.utility.SecretTextView
+                        android:id="@+id/choose_filters_oqueprocura_textview"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginRight="60dp"
+                        android:text="O que você procura?"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        />
+
+                    <RelativeLayout
+                        android:id="@+id/choose_filters_checkboxBox1"
+                        android:layout_below="@+id/choose_filters_oqueprocura_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginRight="60dp"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/choose_filters_2checkbox_linear"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <CheckBox
+                                android:id="@+id/choose_filters_namoro_checkbox"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:text="Namoro"
+                                android:textColor="@color/white"
+                                />
+
+                            <CheckBox
+                                android:id="@+id/choose_filters_amizade_checkbox"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:text="Amizade"
+                                android:textColor="@color/white"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_below="@+id/choose_filters_2checkbox_linear"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <CheckBox
+                                android:id="@+id/choose_filters_negocios_checkbox"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:text="Negócios"
+                                android:textColor="@color/white"
+                                />
+
+                            <CheckBox
+                                android:id="@+id/choose_filters_outros_checkbox"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:text="Outros"
+                                android:textColor="@color/white"
+                                />
+
+                        </LinearLayout>
+
+
+
+
+                    </RelativeLayout>
+
+
+                    <pit.feat.utility.SecretTextView
+                        android:id="@+id/choose_filters_aquedistancia_textview"
+                        android:layout_below="@+id/choose_filters_checkboxBox1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginRight="60dp"
+                        android:gravity="center"
+                        android:text="A que distância?"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+
+                        />
+
+                    <SeekBar
+                        android:id="@+id/choose_filters_distanceseekbar"
+                        android:layout_centerInParent="true"
+
+                        android:layout_below="@+id/choose_filters_aquedistancia_textview"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content" />
+
+
+                    <pit.feat.utility.SecretTextView
+                        android:id="@+id/choose_filters_comquem_textview"
+                        android:layout_below="@id/choose_filters_distanceseekbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginRight="60dp"
+                        android:text="Com quem?"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        />
+
+
+                    <RelativeLayout
+                        android:id="@+id/choose_filters_checkboxBox2"
+                        android:layout_below="@id/choose_filters_comquem_textview"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginRight="60dp"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+                            <CheckBox
+                                android:id="@+id/choose_filters_homem_checkbox"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:text="Homens"
+                                android:textColor="@color/white"
+                                />
+
+                            <CheckBox
+                                android:id="@+id/choose_filters_mulher_checkbox"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:text="Mulheres"
+                                android:textColor="@color/white"
+                                />
+
+
+                        </LinearLayout>
+
+
+
+                    </RelativeLayout>
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

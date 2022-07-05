@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    tools:context=".WelcomeScreen">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:gravity="center_horizontal"
+           android:orientation="vertical"
+           >
+
+           <ImageView
+               android:layout_width="70dp"
+               android:layout_height="0dp"
+               android:layout_weight="2"
+
+               android:layout_centerVertical="true"
+               android:src="@drawable/icon_ea_transparent" />
+
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="3"
+               android:background="@drawable/welcomescreen_background"
+               android:layout_above="@+id/rlBottom">
+
+               <LinearLayout
+                   android:id="@+id/welcomescreen_circles_Linear"
+                   android:layout_width="match_parent"
+                   android:layout_height="100dp"
+                   android:orientation="horizontal"
+                   android:gravity="center_vertical"
+                   >
+
+                   <RelativeLayout
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_weight="1"
+                       >
+                       <ImageView
+                           android:id="@+id/welcomescreen_circle_search"
+                           android:layout_width="wrap_content"
+                           android:layout_height="80dp"
+
+                           android:src="@drawable/icon_circle_search"
+                           android:layout_centerHorizontal="true"
+                           android:layout_centerVertical="true"
+                           />
+
+                   </RelativeLayout>
+
+                   <RelativeLayout
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_weight="1"
+                       android:gravity="center"
+                       >
+
+                       <ImageView
+                           android:id="@+id/welcomescreen_circle_pepper"
+                           android:layout_width="wrap_content"
+                           android:layout_height="80dp"
+                           android:layout_marginTop="20dp"
+                           android:src="@drawable/icon_circle_pepper"
+                           android:layout_centerHorizontal="true"
+                           android:layout_centerVertical="true"
+                           />
+
+
+
+                   </RelativeLayout>
+
+                   <RelativeLayout
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_weight="1"
+
+                       >
+                       <ImageView
+                           android:id="@+id/welcomescreen_circle_key"
+                           android:layout_width="wrap_content"
+                           android:layout_height="80dp"
+
+                           android:src="@drawable/icon_circle_key"
+                           android:layout_centerHorizontal="true"
+                           android:layout_centerVertical="true"
+                           />
+
+                   </RelativeLayout>
+
+               </LinearLayout>
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_below="@+id/welcomescreen_circles_Linear"
+                   >
+
+                   <LinearLayout
+                       android:id="@+id/welcomescreen_center_LinearLayout"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:layout_centerHorizontal="true"
+
+                       android:orientation="vertical"
+                       >
+
+                       <ImageView
+                           android:id="@+id/welcomescreen_centercircle"
+                           android:layout_width="wrap_content"
+                           android:layout_height="80dp"
+                           android:layout_marginTop="10dp"
+                           android:layout_gravity="center_horizontal"
+
+                           android:src="@drawable/icon_circle_key"
+                           />
+
+                       <pit.feat.utility.SecretTextView
+                           android:id="@+id/welcomescreen_center_TextView"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+
+                           android:layout_gravity="center_horizontal"
+                           android:text="AAAAAAAAA"
+                           android:layout_marginBottom="50dp"
+
+                           />
+
+
+                   </LinearLayout>
+
+
+               </RelativeLayout>
+
+
+
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_alignParentBottom="true"
+               android:id="@+id/rlBottom"
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:layout_gravity="center_horizontal">
+
+               <Button
+                   android:id="@+id/welcomescreen_continuebutton"
+                   android:layout_width="230dp"
+                   android:layout_height="50dp"
+                   android:layout_alignParentBottom="true"
+                   android:layout_centerHorizontal="true"
+                   android:layout_marginBottom="20dp"
+                   android:background="@drawable/round_button_shape_color1"
+                   android:text="continuar" />
+
+           </RelativeLayout>
+
+
+       </LinearLayout>
+
+
+</RelativeLayout>

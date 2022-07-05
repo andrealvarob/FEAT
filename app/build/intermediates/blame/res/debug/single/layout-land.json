@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\AndroidProjects\\Feat\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_choose_others_fetish.xml",
+        "source": "C:\\AndroidProjects\\Feat\\app\\src\\main\\res\\layout-land\\activity_choose_others_fetish.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\Feat\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_welcome_screen.xml",
+        "source": "C:\\AndroidProjects\\Feat\\app\\src\\main\\res\\layout-land\\activity_welcome_screen.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\Feat\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_sign_up_email_password.xml",
+        "source": "C:\\AndroidProjects\\Feat\\app\\src\\main\\res\\layout-land\\activity_sign_up_email_password.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\Feat\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_choose_my_fetish.xml",
+        "source": "C:\\AndroidProjects\\Feat\\app\\src\\main\\res\\layout-land\\activity_choose_my_fetish.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\Feat\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_main.xml",
+        "source": "C:\\AndroidProjects\\Feat\\app\\src\\main\\res\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\Feat\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_choose_filters.xml",
+        "source": "C:\\AndroidProjects\\Feat\\app\\src\\main\\res\\layout-land\\activity_choose_filters.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\Feat\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_first_time_login_facebook.xml",
+        "source": "C:\\AndroidProjects\\Feat\\app\\src\\main\\res\\layout-land\\activity_first_time_login_facebook.xml"
+    }
+]

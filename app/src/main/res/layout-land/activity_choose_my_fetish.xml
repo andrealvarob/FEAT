@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    >
+
+    <RelativeLayout
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/choose_my_fetish_ea_icon"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_ea_transparent"
+            />
+
+        <pit.feat.utility.SecretTextView
+            android:id="@+id/choose_my_fetish_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/choose_my_fetish_ea_icon"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Selecione seus fetiches"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <Button
+            android:id="@+id/choose_my_fetish_button"
+            android:layout_below="@+id/choose_my_fetish_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/round_button_shape_color1"
+            android:text="continuar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <ScrollView
+            android:id="@+id/choose_my_fetish_ScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background_light"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background_light"
+                >
+
+                <ExpandableListView
+                    android:id="@+id/choose_my_fetish_ExpandableListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:groupIndicator="@null"
+                    android:dividerHeight="1dp"
+                    android:background="@color/background_light"
+                    listitem="@android:layout/simple_list_item_1">
+
+
+                </ExpandableListView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

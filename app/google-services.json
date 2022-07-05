@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "692612348220",
+    "firebase_url": "https://feat-cef62.firebaseio.com",
+    "project_id": "feat-cef62",
+    "storage_bucket": "feat-cef62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692612348220:android:2e4916c0554f58f0",
+        "android_client_info": {
+          "package_name": "pit.feat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692612348220-dloqqh9e09squahtpg0ngbpjoma4erah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPmimcM7s7FrYe648JjcBwlmOUsIh-Kyo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692612348220:android:72f070a943c732d9",
+        "android_client_info": {
+          "package_name": "fet.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692612348220-dloqqh9e09squahtpg0ngbpjoma4erah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPmimcM7s7FrYe648JjcBwlmOUsIh-Kyo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
